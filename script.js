@@ -24,5 +24,5 @@ function ex03() {
 
     total = principal + juros;
 
-    alert(`O valor total a ser pago é: R$ ${total.toFixed(2)}`);
+    alert(`O valor total a ser pago é: R$ ${total / 10}`);
 }
