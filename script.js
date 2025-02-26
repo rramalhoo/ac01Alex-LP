@@ -16,9 +16,9 @@ function ex02() {
 }
 
 function ex03() {
-    principal = parseFloat(prompt("Digite o valor principal:"));
-    taxa = parseFloat(prompt("Digite a taxa de juros:"));
-    tempo = parseFloat(prompt("Digite o tempo em anos:"));
+    principal = parseFloat(prompt('Digite o valor principal:'));
+    taxa = parseFloat(prompt('Digite a taxa de juros:'));
+    tempo = parseFloat(prompt('Digite o tempo em anos:'));
 
     juros = principal * taxa * tempo;
 
